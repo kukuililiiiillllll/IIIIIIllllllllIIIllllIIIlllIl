@@ -1,0 +1,5 @@
+local args = {
+    [1] = "Ultraschallhaftbombe"
+}
+
+game:GetService("ReplicatedStorage").Client.Communication.PurchaseFromDealer:InvokeServer(unpack(args))
