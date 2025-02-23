@@ -1,0 +1,13 @@
+local args = {
+    [1] = {
+        [1] = {
+            ["KevArgs"] = {
+                [1] = "ShopA",
+                [2] = 2
+            }
+        },
+        [2] = "\158"
+    }
+}
+
+game:GetService("ReplicatedStorage").BridgeNet2.dataRemoteEvent:FireServer(unpack(args))
