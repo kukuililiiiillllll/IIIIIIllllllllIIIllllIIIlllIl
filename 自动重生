@@ -1,0 +1,12 @@
+while true do
+ game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer("collectOrb","Gem","City")
+
+ game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer("collectOrb","Yellow Orb","City")
+
+ game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer("collectOrb","Red Orb","City")
+
+ game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer("collectOrb","Blue Orb","City")
+
+ game:GetService("ReplicatedStorage").rEvents.rebirthEvent:FireServer("rebirthRequest")
+ wait(0.01)
+end
