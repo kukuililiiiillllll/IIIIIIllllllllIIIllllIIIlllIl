@@ -1,4 +1,0 @@
-while true do
-game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer("collectOrb","Gem","City")
-wait(0.01)
-end
