@@ -1,19 +1,10 @@
 while true do
  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer("collectOrb","Gem","City")
- wait(0.01)
-end
 
-while true do 
  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer("collectOrb","Yellow Orb","City")
- wait(0.1)
-end
 
-while true do 
  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer("collectOrb","Red Orb","City")
- wait(0.1)
-end
 
-while true do
  game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer("collectOrb","Blue Orb","City")
  wait(0.01)
 end
