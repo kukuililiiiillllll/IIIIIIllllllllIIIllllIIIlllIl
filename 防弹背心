@@ -1,5 +1,1 @@
-local args = {
-    [1] = "BlackVest"
-}
-
-game:GetService("ReplicatedStorage").Client.Communication.PurchaseFromDealer:InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage").Client.Communication.PurchaseFromDealer:InvokeServer("BlackVest")
